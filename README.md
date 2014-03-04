@@ -1,3 +1,9 @@
 ecommerce
 =========
-<h3>eCommerce project using CI framework</h3>
+## Description:
+eCommerce project using CI framework
+
+
+
+## Author:
+Rudra Shrestha http://www.rusagar.com
