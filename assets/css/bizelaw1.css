@@ -1,0 +1,821 @@
+@charset "utf-8";
+/* CSS Document */
+/*--|| Font@Face ||--*/
+@font-face {
+	font-family: 'ProximaNova-Regular';
+	src: url('../webfonts/1FD716_0_0.eot');
+	src: url('../webfonts/1FD716_0_0.eot?#iefix') format('embedded-opentype'),
+		 url('../webfonts/1FD716_0_0.woff') format('woff'),
+		 url('../webfonts/1FD716_0_0.ttf') format('truetype');
+	font-weight: normal;
+    font-style: normal;
+	}
+@font-face {
+	font-family: 'ProximaNova-Semibold';
+	src: url('../webfonts/1FD716_1_0.eot');
+	src: url('../webfonts/1FD716_1_0.eot?#iefix') format('embedded-opentype'),
+		 url('../webfonts/1FD716_1_0.woff') format('woff'),
+		 url('../webfonts/1FD716_1_0.ttf') format('truetype');
+	font-weight: normal;
+    font-style: normal;
+	} 
+@font-face {
+	font-family: 'ProximaNova-Bold';
+	src: url('../webfonts/1FD716_2_0.eot');
+	src: url('../webfonts/1FD716_2_0.eot?#iefix') format('embedded-opentype'),
+		 url('../webfonts/1FD716_2_0.woff') format('woff'),
+		 url('../webfonts/1FD716_2_0.ttf') format('truetype');
+	font-weight: normal;
+    font-style: normal;
+	}
+	
+/*--|| Global ||--*/ 
+body {
+	margin: 0;
+	padding: 0;
+	font: normal 12px ProximaNova-Regular, Arial, Helvetica, sans-serif;
+	color: #757575;
+	}
+.wrapper{
+	width: 960px;
+	margin: 0 auto;
+	}
+#headerButtons, #headerButtonsinner{
+	background-color: #f8f8f8;
+	height: 36px;
+	border-bottom: 3px solid #909090;
+	}
+#headerButtons .wrapper ul, #headerButtonsinner .wrapper ul{
+	margin: 0; 
+	padding: 0;
+	list-style: none;
+	float: right;
+	width: 300px;
+	}
+#headerButtonsinner .wrapper li {
+	width: 300px;
+	padding: 10px 0;
+	border-bottom: 3px solid #e6001d;
+	line-height: 16px;
+	}
+#headerButtonsinner .wrapper li strong {
+	color: #000;
+	}
+#headerButtonsinner .wrapper li a {
+	float: right;
+	background: url(../images/signOutbtnbg.jpg) repeat-x;
+	border: 1px solid #8b8b8b;
+	box-shadow: 0 2px 1px #d3d3d3;
+	color: #fff;
+	text-shadow: 1px 1px #737373;
+	font-family: ProximaNova-Bold, Arial, Helvetica, sans-serif;
+	padding: 3px 6px 4px 5px;
+	font-size: 11px;
+	font-weight: 600;
+	margin: -6px 0 0;
+	cursor: pointer;
+	text-decoration: none;
+	}	
+#headerButtons .wrapper li{
+	float: left;
+	padding: 11px 14px 10px;
+	width: 122px;
+	border-bottom: 3px solid #e6001d;
+	}
+#headerButtons .wrapper li a{
+	color: #363636;
+	background: url(../images/sprite.png)  -139px -64px no-repeat;
+	overflow: hidden;
+	padding: 0 42px 0 0;
+	text-decoration: none;
+	text-shadow: 1px 1px #fafafa;
+	}
+#headerButtons .wrapper li.elawSeek a{
+	padding:0 49px 0 0;
+	}
+#headerButtons .wrapper li.elawSeek{
+	background-color: #ececec;
+	}
+#headerButtons .wrapper li.elawrecruit{
+	background-color: #e0e0e0;
+	}	
+
+/*--|| Headers ||--*/
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-weight: normal;
+	color: #000;
+	font-family: ProximaNova-Regular, arial, Helvetica, Verdana, Sans-Serif;
+	font-size: 16px;
+}
+h1 {
+	font-size: 20px;
+	}
+h2 {
+	font-size: 18px;
+	font-family: ProximaNova-Bold, Arial, Helvetica, sans-serif;
+	color: #e6001d;
+	}
+h3 {
+	margin: 10px 0 0 5px;
+	float: left;
+	}
+h4 {
+	font-size: 12px;
+	font-family: ProximaNova-Bold, Arial, Helvetica, sans-serif;
+	color: #1e1d1d;
+	font-weight: 600;
+	}
+h5 {
+	font-size: 13px;
+	font-family: ProximaNova-Bold, Arial, Helvetica, sans-serif;
+	font-weight: 600;
+	}
+
+
+/*--|| Logo ||--*/
+#logo h1 {
+	float: left;
+	}
+#logo h1 a{
+	background: url(../images/logo.jpg) left no-repeat;
+	text-indent: -9999px;
+	width: 287px;
+	height: 168px;
+	cursor: pointer;
+	display: block;
+	}	
+/*--|| Link ||--*/
+a{
+	text-decoration: underline;
+	color: #000;
+	}
+a:hover{
+	text-decoration: none;
+	}
+		
+/*--|| Job Seeker ||--*/
+#jobSeeker, #jobSeekerSJ {
+	float: right;
+	margin: 79px 0 0;
+	background-color: #e8e8e8;
+	width: 288px;
+	height: 42px;
+	vertical-align: middle;
+	padding: 6px 6px 5px;
+	}
+#innerWhitebox, #innerWhiteboxSJ {
+	background-color: #fefefe;
+	border-bottom: 1px solid #d0d0d0;
+	width: 165px;
+	height: 28px;
+	float: right;
+	padding: 7px 8px;
+	}
+#innerWhitebox em, #innerWhiteboxSJ em {
+	font-style: normal;
+	color: #e6001d;
+	}
+#innerWhitebox span, #innerWhiteboxSJ span {
+	font-family: ProximaNova-Bold, Arial, Helvetica, sans-serif;
+	font-weight: 600;
+	}
+#innerWhitebox h3, #innerWhiteboxSJ h3 {
+	margin: 0;
+	background: url(../images/sprite.png) 110px -131px no-repeat;
+	height:28px;
+	width:165px;
+	line-height:28px;
+	}
+#innerWhitebox a, #innerWhiteboxSJ a {
+	text-decoration: none;
+	}
+.brdLogin {
+	border-top: 1px dotted #cccccc;
+	padding: 43px 0 0;
+	}
+.brdLogin h1 span {
+	color: #e6001d;
+	}
+.brdLogin h1 em {
+	font-style: normal;
+	color: #bebebe;
+	}
+.wrapper #title h1{
+	margin: 0 0 18px;
+	}
+
+/*--|| Clearfix ||--*/
+.clearfix {
+	clear: both;
+	}
+
+/*-- || Login Form ||--*/
+.box-signIn, #searchBox, .searchJobsbox, .mainsearchJobbox {
+	margin: 18px 0 3px;
+	background: url(../images/icologoBg.png) right #e6001d no-repeat;
+	width: 424px;
+	border-top: 3px solid #434343;
+	padding: 18px 23px;
+	color: #fff;
+	}
+.box-signIn label{
+	display: block;
+	margin: 0 0 17px;
+	}
+.box-signIn label span {
+	width: 86px;
+	display: block;
+	float: left;
+	padding: 10px 0 0;
+	}
+.box-signIn label a, .searchJobsbox label a, .mainsearchJobbox label a {
+	font: normal 12px ProximaNova-Bold, Arial, Helvetica, sans-serif;
+	color: #fff;
+	padding: 7px 0 0 79px;
+	float: left;
+	}
+.box-signIn label input[type="submit"], .paddBtn input[type="submit"], .paddBtn input[type="reset"], #searchBox div input[type="button"], .applyBtn, .deleteBtn, .saveBtn, .searchJobsbox label input[type="submit"], .mainsearchJobbox label input[type="submit"]{
+	border: none;
+	float: right;
+	background: url(../images/sprite.png) #252525 -92px -39px no-repeat;
+	padding: 7px 45px 7px 10px;
+	width: 100px;
+	font: normal 14px ProximaNova-Bold, Arial, Helvetica, sans-serif;
+	color: #fff;
+	margin: 0 9px 0 0;
+	cursor: pointer;
+	}
+.box-signIn label.remember {
+	clear: both;
+	float: right;
+	margin: 25px 10px 0 0;
+	}	
+.box-signIn label div {
+	float: left;
+	padding: 0;
+	}	
+.box-signIn label input[type="text"], .box-signIn label input[type="password"]{
+	width: 317px;
+	height: 22px;
+	border: 1px solid #d5001b;
+	padding: 5px;
+	background-color: #fff;
+	border-radius: 0;
+	}
+input.text:focus, input.email:focus, input.password:focus, textarea.uniform:focus{
+	outline: 0;
+	box-shadow: 0 0 0 !important;
+	}
+#loginBtmBrd, #searchJobs {
+	border-bottom: 1px solid #000;
+	width: 470px;
+	float: left;
+	}
+
+/*-- || Sign Up ||--*/
+#signup {
+	border: 2px solid #dbdbdb;
+	height: 213px;
+	width: 469px;
+	float: right;
+	margin: 18px 0 0;
+	background: #f7f7f7; /* Old browsers */
+	background: -moz-linear-gradient(top, #f9f9f9 0%, #ffffff 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f9f9f9), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #f9f9f9 0%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #f9f9f9 0%,#ffffff 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #f9f9f9 0%,#ffffff 100%); /* IE10+ */
+	background: linear-gradient(top, #f9f9f9 0%,#ffffff 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+	}
+#signup h3 {
+	margin: 45px 0 20px;
+	text-align: center;
+	width: 469px;
+	font-size: 18px;
+	color: #323232;
+	}
+.box-signUp {
+	position: relative;
+	}
+.signUpbtn {
+	background: #f7f7f7; /* Old browsers */
+	background: -moz-linear-gradient(top, #f1f1f1 0%, #dadada 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f1f1f1), color-stop(100%,#dadada)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #f1f1f1 0%,#dadada 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #f1f1f1 0%,#dadada 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #f1f1f1 0%,#dadada 100%); /* IE10+ */
+	background: linear-gradient(top, #f1f1f1 0%,#dadada 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1f1f1', endColorstr='#dadada',GradientType=0 ); /* IE6-9 */
+	border:1px solid #bababa;
+	padding: 10px 13px;	
+	width: 274px;	
+	cursor: pointer;
+	margin: 0 0 3px;
+	}
+.outerSignupBrd {
+	border-bottom: 1px dotted #c7c7c7;
+	width: 302px;
+	position: absolute;
+	right: 79px;
+	top: 106px;
+	}
+.signUpbtn a {
+	text-shadow: 1px 1px #fafafa;
+	color: #3f3f3f;
+	font: normal 16px ProximaNova-Bold, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	background: url(../images/sprite.png) 187px -163px no-repeat;
+	padding: 5px 0;
+	display: block;
+	width: 274px;
+	}
+.recaptchatable a, .recaptchatable a:hover {
+	display: none;
+	}
+#signupForm {
+	/*margin: -257px 0 0 0;*/
+	margin: -22px 0 0;
+	float: right;
+	}
+.signUpform .requiredfld, .searchJobs .requiredfld {
+	float: right;
+	padding: 7px 0 0;
+	color: #000;
+	font-size: 11px;
+	}
+.signUpform .requiredfld span, .brdForm label span red, .personalData label span red, #myJobs h4 red, .searchJobs .requiredfld red {
+	color: #e6001d;
+	}
+.signUpform h3 {
+	font-size: 18px;
+	color: #3e3e3e;
+	margin: 0 0 18px;
+	}
+#registerSeeker {
+	clear: both;
+	}
+.brdForm, .myJobbox, .searchJobsform{
+	border: 2px solid #dbdbdb;
+	width: 421px;
+	background-color: #f9f9f9;
+	padding: 29px 17px 23px 22px; 
+	font-size: 12px;
+	color: #343434;
+	}
+.brdForm label, .personalData label, #searchBox label, .searchJobsform label, .searchJobsbox label, .searchJobsbox .multi, .mainsearchJobbox label {
+	display: block;
+	margin: 0 0 15px;
+	clear: both;
+	}
+.brdForm label span, .personalData label span, .searchJobsform label span, .searchJobsbox label span, .mainsearchJobbox label span {
+	width: 150px;
+	display: block;
+	float: left;
+	padding: 10px 0 0;
+	}
+.brdForm label input[type="text"], .brdForm label input[type="password"], .personalData input[type="text"], #searchBox label [type="text"], .searchJobsform label input[type="text"], .searchJobsbox label input[type="text"], .mainsearchJobbox label input[type="text"], .searchJobsbox .multi input[type="text"] { 
+	width: 255px;
+	border: 1px solid #d6d6d6;
+	float: right;
+	margin: 0 0 15px;
+	-moz-box-shadow: inset 1px 1px 2px #e7e7e7;
+	-webkit-box-shadow: inset 1px 1px 2px #e7e7e7;
+	box-shadow: inset 0 1px 2px #e7e7e7;
+	padding: 8px 5px;
+	font-family: ProximaNova-Regular, Arial, Helvetica, sans-serif;
+	border-radius: 0;
+	}
+.personalData label input[type="text"], #searchBox label [type="text"], #searchBox div input[type="button"], #myJobs, .myJobbtn a.applyBtn, .myJobbtn a.deleteBtn, .searchJobs, .searchJobsform label input[type="text"], .searchJobsbox label input[type="text"], .mainsearchJobbox label input[type="text"], .searchJobsbox .multi input[type="text"]{
+	float: left;
+	}
+.brdForm label .selector, .personalData label .selector, #searchBox label .selector, .searchJobsform label .selector, .searchJobsbox label .selector, .mainsearchJobbox label .selector {
+	float: left;
+	margin: 0 0 15px 5px; 
+	height: 34px;
+	background-position: 0 -35px !important;
+	}
+.personalData label .selector, #searchBox label .selector, .searchJobsform label .selector, .searchJobsbox label .selector, .mainsearchJobbox label .selector  {
+	margin: 0 0 15px 0; 
+	}
+.brdForm label .selector span, .personalData label .selector span, #searchBox label .selector span, .searchJobsform label .selector span, .searchJobsbox label .selector span, .mainsearchJobbox label .selector span {
+	padding: 5px 0 0;
+	}
+.selector span, .selector select{
+	height: 34px !important;
+	width: 180px !important;
+	}	
+.selector.focus, .selector.hover, .selector:hover {
+	background-position: 0 -35px !important;
+	cursor: pointer;
+	}
+.selector.focus span, .selector.hover span, .selector:hover span {
+	background-position: -240px 0 !important;
+	}
+.selector.focus:active, .selector.focus.active, .selector:hover:active, .selector.active:hover {
+	background-position: -409px -70px !important;
+	}
+.selector.focus:active span, .selector:hover:active span, .selector.active:hover span, .selector.focus.active span {
+	background-position: -240px 0 !important;
+	}
+.selector select:focus, .radio input:focus, .checker input:focus, .uploader input:focus {
+	background-color: #fff;
+	}
+.checker span, .checker input, .checker{
+	width: 16px !important;
+	height: 16px !important;
+	padding: 0 !important;
+	position: relative;
+	}
+.checker span, .checker.focus span, .checker:hover span, .checker.focus:active span{
+	background-position: -5px -104px !important;
+	}
+.checker span.checked, .checker.focus span.checked, .checker:hover span.checked, .checker.focus:active span.checked, .checker:hover:active span.checked, .checker.active:hover span.checked, .checker.active.focus span.checked{
+	background-position: -25px -104px !important;
+	}
+.brdForm .brdTop {
+	border-top: 1px dotted #c7c7c7;
+	margin: 0 0 0 -23px;
+	padding: 20px 0 20px 23px;
+	width: 438px;
+	}
+
+/*--|| Buttons ||--*/
+.paddBtn {
+	padding: 10px 0 0;
+	}
+.paddBtn input[type="submit"] {
+	float: right;
+	background-color: #e6001d;
+	padding: 7px 35px 7px 10px;
+	}
+.personalData .paddBtn input[type="submit"] {
+	float: left;
+	background: none;
+	background-color: #e6001d;
+	width: 70px;
+	padding: 7px;
+	}
+.paddBtn input[type="reset"], #cancel{
+	background: none;
+	background-color: #afafaf;
+	float: left;
+	padding: 7px;
+	width: 70px;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	}
+#cancel {
+	background-color: #3e3e3e;
+	}
+.mrgLft {
+	margin: 0 0 0 150px;
+	}
+	
+
+/*--|| Footer ||--*/
+#footer {
+	clear: both;
+	top: 92px;
+	border-top: 3px solid #909090;
+	position: relative;
+	color: #343434;
+	}
+#footer .wrapper {
+	padding: 40px 0 0;
+	}
+.footerLink {
+	float: left;
+	}
+.footerLink ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	}
+.footerLink li {
+	float: left;
+	border-right: 1px solid #d6d6d6;
+	padding: 0 10px;
+	}
+.footerLink li a {
+	color: #343434;
+	text-decoration: none;
+	}
+.footerLink li a:hover {
+	text-decoration: underline;
+	}
+.footerLink li.omitRgtbrd {
+	border-right: none;
+	}
+.footerIcon p{
+	clear: right;
+	padding: 21px 0 0;
+	font: normal 12px ProximaNova-Bold, Arial, Helvetica, sans-serif;
+	}	
+
+/*--|| Social Icons ||--*/
+.footerIcon {
+	border-top: 3px solid #E6001D;
+	float: right;
+	margin: -43px 0 0;
+	width: 300px;
+	text-align: right;
+	padding: 43px 0 0;
+	}
+.footerIcon h4 {
+	float: right;
+	margin: 0 10px 0 0;
+	}
+.footerIcon .facebook{
+	float: right;
+	background: url(../images/social.png) 0 0 no-repeat;
+	width: 15px;
+	height: 15px;
+	margin: 0 5px 0 0;
+	}
+.footerIcon .facebook:hover{
+	background: url(../images/social.png) 0 -17px no-repeat;
+	}
+.footerIcon .twitter{
+	float: right;
+	background: url(../images/social.png) -20px 0 no-repeat;
+	width: 15px;
+	height: 15px;
+	margin: 0 5px 0 0;
+	}
+.footerIcon .twitter:hover{
+	background: url(../images/social.png) -20px -17px no-repeat;
+	}
+.footerIcon .linkedin{
+	float: right;
+	background: url(../images/social.png) -41px 0 no-repeat;
+	width: 15px;
+	height: 15px;
+	margin: 0 5px 0 0;
+	}
+.footerIcon .linkedin:hover{
+	background: url(../images/social.png) -41px -17px no-repeat;
+	}
+.footerIcon a span {
+	display: none;
+	}
+	
+/*--|| Menu ||--*/
+#menu {
+	background-color: #383838;
+	width: 425px;
+	border: 1px solid #4a4a4a;
+	margin: 0 0 32px;
+	box-shadow: 0 2px 1px #D3D3D3;
+	}
+#menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border-top: 1px solid #7a7a7a;
+	}
+#menu li {
+	float: left;
+	display: block;
+	padding: 10px 0 10px 1px;
+	border-right: 1px solid #242424;
+	}
+#menu li a {
+	font: 600 12px ProximaNova-Semibold, Arial, Helvetica, sans-serif;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 23px 10px 22px;
+	}
+#menu li a:hover, #menu li a.current {
+	background-color: #e6001d;
+	}
+#menu li.omitBrdrgt {
+	border-right: 0;
+	}
+
+/*--|| Sub Title ||--*/
+.content .subTitle h3{
+	margin: 0 0 13px;
+	color: #3e3e3e;
+	}
+#myAccount {
+	float: left;
+	}
+#quickJobsearch {
+	float: right;
+	}
+/*--|| Search Box ||--*/
+#searchBox {
+	width: 264px;
+	padding: 18px;
+	}
+#searchBox div input[type="button"] {
+	margin: 0;
+	}
+#searchBox label .selector, .mainsearchJobbox label .selector{
+	margin-right: 44px;
+	width: 110px !important;
+	}
+#searchBox label .selector span, #searchBox label .selector select, .mainsearchJobbox label .selector span, .mainsearchJobbox label .selector select {
+	width: 110px !important;
+	background-position: -310px 0;
+	}
+#searchBox label .selector span, #searchBox label .selector select, .mainsearchJobbox label .selector span, .mainsearchJobbox label .selector select {
+	height: 34px;
+	min-width: 121px;
+	}	
+#searchBox label .selector.focus span, #searchBox label .selector.hover span, #searchBox label .selector:hover span, .mainsearchJobbox label .selector.focus span, .mainsearchJobbox label .selector.hover span, .mainsearchJobbox label .selector:hover span {
+	background-position: -310px 0 !important;
+	}
+
+/*--|| My jobs ||--*/
+#myJobs h4, .searchJobs h3{
+	color: #464646;
+	margin: 0 0 24px;
+	}
+#myJobs h4 .rgtAlign {
+	float: right;
+	}
+#myJobs h4 red {
+	padding: 0 10px;
+	}
+#myJobs h4 underline {
+	text-decoration: underline;
+	color: #030303;
+	}
+.myJobbox, .searchJobsform {
+	width: 615px;
+	padding: 17px 12px;
+	margin: 0 0 11px;
+	}
+.myJobbox h5 a {
+	color: #e6001d; 
+	float: left;
+	}
+.myJobbox h4 {
+	float: right;
+	color: #191919 !important;
+	}	
+.myJobbox h4 .gapMiddle {
+	padding: 0 37px;
+	}
+.myJobbox h4 {
+	margin: 0 0 8px !important;
+	}
+.applyBtn {
+	background-color: #E6001D;
+	background-position: -48px -98px;
+	width: 44px;
+	padding: 7px 0 7px 33px;
+	text-decoration: none;
+	}
+.deleteBtn, .saveBtn {
+	background: url(../images/sprite.png) #3e3e3e -65px -76px no-repeat;
+	width: 51px;
+	padding: 7px 0 7px 32px;
+	text-decoration: none;
+	}
+.myJobbox .lnk {
+	font: normal 14px ProximaNova-Semibold, Arial, Helvetica, sans-serif;
+	color: #060606;
+	}	
+
+/*--|| Search Jobs ||--*/
+.searchJobsform {
+	clear: both;
+	}	
+.searchJobsform .applyBtn, .searchJobsform .saveBtn  {
+	width: 77px;
+	padding: 7px 0 7px 26px;
+	}
+.searchJobsform .saveBtn {
+	background-position: -65px -74px;
+	}
+/*--|| Uploader ||--*/
+.uploader {
+	background-position: -5px -213px !important;
+	width: 358px !important;
+	height: 34px !important;
+	}
+.uploader input {
+	height: 34px !important;
+	width: 82px !important;
+	}	
+.uploader span.filename {
+	border-right: none !important;
+	height: 34px !important;
+	width: 255px !important;
+	line-height: 31px !important;	
+	}
+.uploader span.action  {
+	background-position: -339px -214px !important;
+	margin: 0 0 0 -4px;	
+	padding: 4px 0 !important;
+	}
+.searchJobsbox, .mainsearchJobbox {
+	background: url(../images/icosearchBg.png) right bottom #e6001d no-repeat;
+	width: 594px;
+	}	
+.paddTpsj {
+	padding: 12px 0 0;
+	}
+.sjcol-1-2 {
+	float: left;
+	padding: 0 13px 0 0;
+	}
+.sjcol-2-2 {
+	float: left;
+	}
+.searchJobsbox label input[type="text"], .mainsearchJobbox label input[type="text"] {
+	width: 336px;
+	}
+#searchJobs {
+	width: 640px;
+	float: left;
+	}
+
+/*--|| Job Type ||--*/
+#jobType {
+	background-color: #fff;
+	clear: both;
+	padding: 11px 0 26px 20px;
+	color: #585858;
+	position: relative;
+	top: -14px;
+	}
+#jobType ul, #bottomIco ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	}		
+#jobType li, #bottomIco li {
+	float: left;
+	width: 188px;
+	padding: 15px 0 0;
+	}
+#bottomIco li {
+	width: 160px;
+	}
+#jobType li span {
+	vertical-align: bottom;
+	}
+.searchJobsbox .smallInputbox input[type="text"] {
+	width: 46px;
+	}
+.searchJobsbox .smallInputbox span {
+	display: block;
+	padding: 0 10px;
+	vertical-align: bottom;
+	line-height: 35px;
+	width: 10px;
+	float: left;
+	}
+.searchJobsbox label a, .mainsearchJobbox label a {
+	padding-left: 0;
+	}
+.searchJobsbox label input[type="submit"], .mainsearchJobbox label input[type="submit"] {
+	margin-right: 0;
+	}
+.mainsearchJobbox label input[type="submit"] {
+	position: relative;
+	top: -48px;
+	}
+
+/*--|| Bottom Icon ||--*/
+#bottomIco {
+	clear: both;
+	padding: 35px 0 0;
+	}
+#jobSeekerSJ {
+	width: 288px;
+	height: 100%;
+	padding-bottom: 0;
+	margin: 40px 0 4px;
+	}
+#innerWhiteboxSJ {
+	width: 260px;
+	height: 50px;
+	padding: 9px 14px;
+	margin: 0 0 6px;
+	}
+#innerWhiteboxSJ p {
+	font-size: 14px;
+	color: #232323;
+	clear: both;
+	position: relative;
+	top: -18px;
+	}
+#innerWhiteboxSJ h3 {
+	background: url(../images/sprite.png) 216px -248px no-repeat;
+	width: 267px;
+	height: 48px;
+	font-size: 20px;
+	}
+.brdOuter {
+	border-bottom: 1px dotted #ccc;
+	width: 300px;
+	float: right;
+	}
+	

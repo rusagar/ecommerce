@@ -1,0 +1,329 @@
+@charset "utf-8";
+/* ONLY FOR IE7 */
+
+#headerButtons .wrapper li, .innerPadds .sjcol-2-2, #alertSearchsetup .buttons, #searchList li .runSearchbtn, .newJobbuttons, #advanceSearchButtons, .searchBasicForm .sjcol-2-2, .buttons input[type="submit"], .sortable, #searchList p, #alertSearchsetup .buttons #cancel, .signUpform, #searchBox .sjcol-2-2, .icoBrd li span, #forgotPass, #eamailJobForm .brdForm, #eamailJobForm .paddBtn input[type="button"] {
+	*position: relative;
+	}
+#headerButtons .wrapper li.elawrecruit {
+	*top: -25px;
+	*left: -14px;
+	}
+#headerButtons .wrapper li.elawrecruit:hover {
+	*top: -25px;
+	*left: 136px;
+	}
+.sjcol-1-2 {
+	*width: 348px;
+	}
+.sjcol-2-2, .buttons, #searchBox input[type="submit"], #forgotPass .errorTxtfpass p, #headerButtons .wrapper li.elawrecruit:hover, #forgotPass .forgotPass input[type="button"] {
+	*position: absolute;
+	}
+.buttons {
+	*top: 105px;
+	}
+.searchJobsbox {
+	*padding: 19px 23px 25px;
+	}
+input[type="submit"], #alertSearchsetup .buttons #cancel, .personalData .paddBtn #cancel, .searchJobsform #cancel, .paddBtn input[type="reset"], #eamailJobForm .paddBtn input[type="button"] {
+	*padding-top: 6px !important;
+	*padding-bottom: 6px !important;
+	}
+.myJobbtn a, .appsummeryBox a.viewApplicantsbtn, .newJobbuttons a.#cancel {
+	*padding-top: 8px;
+	*padding-bottom: 8px;
+	}
+.box-signIn {
+	*padding: 19px 23px 0;
+	}
+#jobTypelocation .checker {
+	*float: left;
+	}
+.signUpform {
+	*right: -25px;
+	}
+.signUpform .requiredfld  {
+	*right: 25px;
+	}
+.signUpform .errorTxt {
+	*right: -161px !important;
+	*top: -7px !important;
+	}
+.signUpform .minusMrgerror {
+	*top: -21px !important;
+	}
+.minusLft {
+	*left: 160px;
+	}
+.brdForm p {
+	*margin: -6px;
+	*padding: 0;
+	}
+.smallTxt {
+	*padding: 0 0 15px 153px;
+	}
+.minusMrgerror {
+	*left: 161px;
+	}
+.acceptError {
+	*top: -10px !important;
+	}
+#headerButtonsinner .wrapper li {
+	*width:  294px;
+	}
+#headerButtonsinner .wrapper li a {
+	*margin: -20px 4px 0 10px;
+	}
+.redBrdbottom {
+	*top: 22px;
+	}
+#searchBox .sjcol-1-2 {
+	*width: 265px;
+	}
+#searchBox .sjcol-2-2 {
+	*width: 112px;
+	}
+#searchBox input[type="submit"] {
+	*right: 1px;
+	}
+#quickJobsearch {
+	*width: 300px;
+	}
+.innerPadds input[type="text"], #quickJobsearch label input[type="text"] {
+	*border: 1px solid #D6D6D6;
+    *border-radius: 0 0 0 0;
+    *box-shadow: 0 1px 2px #D3D3D3 inset;
+    *font-family: ProximaNova-Regular,Arial,Helvetica,sans-serif;
+    *font-size: 14px;
+    *margin: 0 0 15px;
+    *padding: 7px 5px;
+    *width: 255px;
+	}
+.innerPadds .sjcol-1-2 {
+	*width: 555px;
+	}	
+.searchJobs {
+	*width: 640px;
+	}
+#alertSearchsetup .buttons {
+	*top: -10px;
+	}
+#footer {
+	*background-color: #f8f8f8;
+        *float: left;
+        *width:100%;
+	}
+#searchList li .runSearchbtn {
+	*float: right;
+	*right: -95px;
+	*top: -18px;
+	}
+#menu ul li ul li {
+	*border: 1px solid #fff;
+	*margin: 0;
+	*padding: 0;
+	}
+#reports, #titleBoxactivejobs, .appsummeryBox, .jobDetailsbox, .recruiter, .recruiterSub,  .recruiter h3, .recruiterSub  h3, .paddBtm {
+	*z-index: -100;
+	}
+.requiredfld .red, red  {
+	*color: #e6001d;
+	*font-size: 16px;
+	*vertical-align: top;
+	}
+#dataCol .col-1-5 .praArea {
+	*width: 385px;
+	}
+#firmDetailsForm .newJobbuttons, #createNewUserForm .newJobbuttons {
+	*top: -205px;
+	}
+#reports input.fromDate, #reports input.toDate {
+	*float: left;
+	}
+#advanceSearchButtons {
+	*top: 0;
+	}
+.paddTpsjadv, .paddTpsj {
+	*padding-top: 0;
+	}
+.searchJobsbox label span {
+	*line-height: 31px;
+	}
+.searchBasicForm .sjcol-2-2 {
+	*top: -5px;
+	}
+.buttons input[type="submit"], #alertSearchsetup .buttons #cancel {
+	*top: -7px;	
+	}
+.locations {
+	*top: 68px !important;
+	}
+#jobTypePra {
+	*top: 238px !important;
+	}
+.sortable, .sortable .paddSort{
+	*top: -15px;
+	}
+.searchTerms .sortable, .alertWdt .sortable  {
+	*top: 0;
+	}
+.searchTerms .sortable {
+	*width: 280px;
+	}
+#myJobs .sortable, .alertWdt .sortable {
+	*width: 205px;
+	}
+.myJobbox {
+	*top: -28px;
+	}
+#alertSearchsetup .sjcol-2-2 {
+	*z-index: 1;
+	}
+#alertSearchsetup #jobTypelocation {
+	*top: 33px !important;
+	}	
+#alertSearchsetup #jobType {
+	*top: 150px !important;
+	}
+#alertSearchsetup #jobTypePra {
+	*top: 248px !important;
+	}
+#searchList p {
+	*display: block;
+	}
+.footerIcon p {
+	*padding-top: 0;
+	*margin-top: -22px;
+	*margin-bottom: 10px;
+	}
+.icoBrd li span {
+	*top: -35px;	
+	}
+#forgotPass {
+	*top: 15px;
+	}	
+#forgotPass .errorTxtfpass p {
+	*top: -40px !important;
+	*left: 230px;
+	}
+#forgotPass .forgotPass input[type="button"] {
+	*top: -16px;
+	*left: 365px;
+	}
+#eamailJobForm .brdForm {
+	*top: 24px;
+	}
+#eamailJobForm .paddBtn input[type="button"] {
+	*top: -32px;
+	}
+#recaptcha_widget {
+	*left: -53px;
+	}
+#eamailJobForm .errorTxtemailjobsmsg p, #eamailJobForm .recaptcha_response_field {
+	*margin-top: 15px !important;
+	}
+#eamailJobForm p.errorTxt {
+	*left: 195px;
+	*top: -8px !important;
+	}
+#eamailJobForm .adjPaddcs p.errorTxt {
+	*top: -22px !important;
+	}
+#jobTypelocation, #jobType, #jobTypePra {
+	*z-index: 100;
+	}
+.searchTerms, #searchList {
+	*z-index: -100;
+	*top: 0;
+	}
+#myAccount .personalData .selector select option {
+	*border: 1px solid red !important;
+	*min-width: 250px;
+	}
+.filter {
+	*padding: 0 0 22px;
+	*z-index: -1;
+	}
+#menu ul li ul li {
+	*z-index: 1;
+	}
+#bottomIco {
+	*padding: 0;
+        
+	}
+.searchJobsbox .searchBasicForm .sjcol-1-2 {
+	*padding-bottom: 6px;
+	}
+.searchie7 {
+	*margin-top: -38px;
+	}
+#searchList ul li .searchlistie7 {
+	*width: 600px;
+	}
+#searchList ul li.list4 {
+	*width: 70px;
+	}
+.colBG {
+    *background-color: #F7F7F7;
+	*min-height: 50px;
+	}
+#searchList {
+	*margin-top: 20px;
+	}
+.alertWdt input[type="submit"] {
+	*margin-top: -40px;
+	}
+#dataColapp .col-5-5 .col-2-2 .savenorBtn {
+	*height: 16px;
+	*display: block;
+	*width: 26px;
+	*margin-top: -5px;	
+	}
+.brdPublic {
+	*padding-top: 16px;
+	}
+#searchJobs .searchJobsbox .searchBasicForm {
+	*z-index: 100;
+	}
+#bottomIco {
+	*z-index: -1000;
+	}
+.searchTerms {
+	*padding-top: 8px;
+	}
+#searchList {
+	*margin-top: 0;
+	}
+.searchTerms li a:hover {
+	*padding-top: 19px;
+	}
+#searchList p {
+	*padding-left: 9px;
+	}
+.appsummeryBox label span, .jobDetailsbox label span, .newJobform  label {
+	*line-height: 24px;
+	}
+.jobDetailsbox h3, .appsummeryBox h3 {
+	*margin-bottom: -18.5px;
+	}
+#firmDetailsForm label, .newJobform label  {
+	margin-bottom: 0;
+	}
+.backtoSR {
+	*width: 130px;
+	*height: 12px;
+	*display: block;
+	}
+.footerIcon #newsletter {
+	*margin-bottom: -45px;
+	}
+.footerIcon p{
+	*padding-top: 11px;
+	}
+.footerIcon #newsletter input[type="submit"] {
+	*background-position: -306px -818px;
+	*font: 0/0 normal a;
+	*color:#a3a3a3;
+	}
+.footerIcon #newsletter input[type="submit"]:hover {
+	*background-position: -373px -818px;
+	}
